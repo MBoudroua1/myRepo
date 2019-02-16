@@ -7,6 +7,11 @@ import { HebergementComponent } from './hebergement/hebergement.component';
 import { RoomsComponent } from './hebergement/rooms/rooms.component';
 import {RestaurationComponent} from './restauration/restauration.component';
 import { BarsComponent } from './restauration/bars/bars.component';
+import { RestaurantComponent } from './restauration/restaurant/restaurant.component';
+import { LifestyleComponent } from './lifestyle/lifestyle.component';
+import { BienEtreSpaComponent } from './lifestyle/bien-etre-spa/bien-etre-spa.component';
+import { ActivityComponent } from './lifestyle/activity/activity.component';
+
 
 
 @NgModule({
@@ -15,7 +20,11 @@ import { BarsComponent } from './restauration/bars/bars.component';
     HebergementComponent,
     RoomsComponent,
     RestaurationComponent,
-    BarsComponent
+    BarsComponent,
+    RestaurantComponent,
+    LifestyleComponent,
+    BienEtreSpaComponent,
+    ActivityComponent,
   ],
   imports: [
     BrowserModule,
