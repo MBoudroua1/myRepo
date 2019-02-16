@@ -21,7 +21,7 @@ import { OffersComponent } from './offers/offers.component';
 import { AuthComponent } from './auth/auth.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { SigninComponent } from './auth/signin/signin.component';
-
+import {AppRoutingModule} from './app-routing.module';
 
 
 @NgModule({
@@ -48,7 +48,9 @@ import { SigninComponent } from './auth/signin/signin.component';
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
