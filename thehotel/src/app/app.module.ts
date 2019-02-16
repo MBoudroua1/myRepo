@@ -6,6 +6,7 @@ import { MaterialModule } from './material.module';
 import { HebergementComponent } from './hebergement/hebergement.component';
 import { RoomsComponent } from './hebergement/rooms/rooms.component';
 import {RestaurationComponent} from './restauration/restauration.component';
+import { BarsComponent } from './restauration/bars/bars.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import {RestaurationComponent} from './restauration/restauration.component';
     AppComponent,
     HebergementComponent,
     RoomsComponent,
-    RestaurationComponent
+    RestaurationComponent,
+    BarsComponent
   ],
   imports: [
     BrowserModule,
