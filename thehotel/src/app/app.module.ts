@@ -13,6 +13,14 @@ import { BienEtreSpaComponent } from './lifestyle/bien-etre-spa/bien-etre-spa.co
 import { ActivityComponent } from './lifestyle/activity/activity.component';
 import { ExperiencesComponent } from './lifestyle/experiences/experiences.component';
 import { ExcursionsComponent } from './lifestyle/excursions/excursions.component';
+import { WeddingsComponent } from './weddings/weddings.component';
+import { ThaiWeddingComponent } from './weddings/thai-wedding/thai-wedding.component';
+import { MorrocanWeddingComponent } from './weddings/morrocan-wedding/morrocan-wedding.component';
+import { CelebrationsComponent } from './celebrations/celebrations.component';
+import { OffersComponent } from './offers/offers.component';
+import { AuthComponent } from './auth/auth.component';
+import { SignupComponent } from './auth/signup/signup.component';
+import { SigninComponent } from './auth/signin/signin.component';
 
 
 
@@ -29,6 +37,14 @@ import { ExcursionsComponent } from './lifestyle/excursions/excursions.component
     ActivityComponent,
     ExperiencesComponent,
     ExcursionsComponent,
+    WeddingsComponent,
+    ThaiWeddingComponent,
+    MorrocanWeddingComponent,
+    CelebrationsComponent,
+    OffersComponent,
+    AuthComponent,
+    SignupComponent,
+    SigninComponent,
   ],
   imports: [
     BrowserModule,
