@@ -11,6 +11,8 @@ import { RestaurantComponent } from './restauration/restaurant/restaurant.compon
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
 import { BienEtreSpaComponent } from './lifestyle/bien-etre-spa/bien-etre-spa.component';
 import { ActivityComponent } from './lifestyle/activity/activity.component';
+import { ExperiencesComponent } from './lifestyle/experiences/experiences.component';
+import { ExcursionsComponent } from './lifestyle/excursions/excursions.component';
 
 
 
@@ -25,6 +27,8 @@ import { ActivityComponent } from './lifestyle/activity/activity.component';
     LifestyleComponent,
     BienEtreSpaComponent,
     ActivityComponent,
+    ExperiencesComponent,
+    ExcursionsComponent,
   ],
   imports: [
     BrowserModule,
