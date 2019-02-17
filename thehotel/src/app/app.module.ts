@@ -27,7 +27,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
-import { MatIconModule } from '@angular/material';
+
 
 @NgModule({
   declarations: [
@@ -55,14 +55,12 @@ import { MatIconModule } from '@angular/material';
     HeaderComponent,
     NavtabsComponent,
     SidenavListComponent,
-    MatIconModule
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
     MaterialModule,
-    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
