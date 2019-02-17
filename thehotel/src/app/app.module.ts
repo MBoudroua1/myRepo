@@ -27,7 +27,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HeaderComponent } from './navigation/header/header.component';
 import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
 import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
-
+import {FlexLayoutModule} from '@angular/flex-layout';
 @NgModule({
   declarations: [
     AppComponent,
@@ -60,6 +60,7 @@ import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.com
     BrowserAnimationsModule,
     AppRoutingModule,
     MaterialModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
