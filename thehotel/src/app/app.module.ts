@@ -22,7 +22,12 @@ import { AuthComponent } from './auth/auth.component';
 import { SignupComponent } from './auth/signup/signup.component';
 import { SigninComponent } from './auth/signin/signin.component';
 import {AppRoutingModule} from './app-routing.module';
-
+import { HomeComponent } from './home/home.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { HeaderComponent } from './navigation/header/header.component';
+import { NavtabsComponent } from './navigation/navtabs/navtabs.component';
+import { SidenavListComponent } from './navigation/sidenav-list/sidenav-list.component';
+import { MatIconModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -45,12 +50,19 @@ import {AppRoutingModule} from './app-routing.module';
     AuthComponent,
     SignupComponent,
     SigninComponent,
+    HomeComponent,
+    NavigationComponent,
+    HeaderComponent,
+    NavtabsComponent,
+    SidenavListComponent,
+    MatIconModule
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
