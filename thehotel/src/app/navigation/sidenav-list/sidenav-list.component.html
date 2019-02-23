@@ -1,21 +1,21 @@
 
 <mat-nav-list class="sidenav-list">
-  <a mat-list-item routerlink="/signin">
+  <a mat-list-item routerlink="/signin" (click)="onToggleClose()">
   <mat-icon>input</mat-icon>
   <span>Signin</span>
   </a>
 
-  <a mat-list-item routerlink="/signup">
-  <mat-icon>account</mat-icon>
+  <a mat-list-item routerlink="/signup" (click)="onToggleClose()">
+  <mat-icon>assignment_returned</mat-icon>
   <span>Signup</span>
   </a>
 
-  <a mat-list-item routerlink="/accomodation">
+  <a mat-list-item routerlink="/accomodation" (click)="onToggleClose()">
   <mat-icon>hotel</mat-icon>
   <span>Hebergement</span>
   </a>
 
-  <a mat-list-item routerlink="/offers">
+  <a mat-list-item routerlink="/offers" (click)="onToggleClose()">
   <mat-icon>loyalty</mat-icon>
   <span>Offers</span>
   </a>
